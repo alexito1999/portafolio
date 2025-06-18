@@ -1,0 +1,40 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  --primary-color: rgb(18, 18, 18);
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --grey: #c0c0c0;
+  --grey-light: #f8f8f8;
+  --purple: rgb(187 63 255);
+  --light-blue: #646cff;
+  --yellow: rgb(255, 193, 1);
+  --orange: #ee7901;
+}
+
+ul,
+li,
+p {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}

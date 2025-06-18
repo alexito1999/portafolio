@@ -1,0 +1,52 @@
+.logo {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.presentacion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+.presentacion div {
+  flex: 1;
+}
+.h1Cabecera {
+  background: linear-gradient(to right, rgb(187 63 255), purple);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 45px;
+}
+
+.h2Cabecera {
+  color: var(--grey);
+  font-size: 35px;
+}
+
+.left {
+  text-align: left;
+}
+.icono {
+  cursor: pointer;
+  width: 33px;
+  height: 33px;
+}
+
+.medios {
+  display: flex;
+  align-items: center;
+}
+.botonDescarga {
+  flex: 1;
+  button {
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    color: var(--white-color);
+    background-color: var(--light-blue);
+  }
+}

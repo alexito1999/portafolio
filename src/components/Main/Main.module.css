@@ -1,0 +1,13 @@
+.cabeceraHeader {
+  color: var(--white-color);
+}
+.contenidoPresentacion {
+  color: var(--grey);
+}
+
+.contenidoIconos {
+  color: var(--grey);
+}
+.secciones-portfolio {
+  background-color: aqua;
+}

@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "#icons": ["src/components/icons/Icons.jsx"],
+      "#button": ["src/components/Button.jsx"],
+      "#link": ["src/components/Link.jsx"],
+      "#assets/*": ["src/assets/*"]
+    }
+  }
+}
