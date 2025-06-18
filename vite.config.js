@@ -10,7 +10,7 @@ export default defineConfig({
       { find: '@', replacement: path.resolve(__dirname, 'src') },
       { find: '#icons', replacement: path.resolve(__dirname, 'src/components/icons/Icons.jsx') },
       { find: '#button', replacement: path.resolve(__dirname, 'src/components/Button.jsx') },
-      { find: '#link', replacement: path.resolve(__dirname, 'src/components/link.jsx') },
+      { find: '#link', replacement: path.resolve(__dirname, 'src/components/Link.jsx') },
       { find: '#assets', replacement: path.resolve(__dirname, 'src/assets') }
     ]
   },
